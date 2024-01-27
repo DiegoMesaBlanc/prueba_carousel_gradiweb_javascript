@@ -65,8 +65,8 @@ No olvides renderizar el número de la etiqueta
 Lo unico que se me pasó por alto es realizar el seguimiento en github del proceso de creación y manipulación del proyecto y no se realiza despliegue en algún servidor, el cual generaba mayor puntaje dentro de la prueba
 
 
-✅ Se realizan todos los puntos propuestos dentro de la prueba
-✅ El proyecto se realiza un Vanilla Javascript
+- ✅ Se realizan todos los puntos propuestos dentro de la prueba
+- ✅ El proyecto se realiza un Vanilla Javascript
 
 
 
