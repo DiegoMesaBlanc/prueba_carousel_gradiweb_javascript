@@ -72,10 +72,3 @@ Lo unico que se me pasó por alto es realizar el seguimiento en github del proce
 
 - Correr el proyecto normal, como un HTML
 
-
-
-**Commands**
-- run: 
-```bash
-npm start
-```
