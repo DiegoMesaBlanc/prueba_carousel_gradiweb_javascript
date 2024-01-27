@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+h4,
+h2,
+a,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Carousel .top-header {
+  width: 100%;
+}
+
+.Carousel .top-header header {
+  background-color: #f2b7a7;
+  text-align: center;
+  padding: 7px;
+  font-size: 13px;
+  color: rgb(79, 79, 79);
+  font-weight: bold;
+}
+
+button {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.browser-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.browser-all button {
+  background-color: #f2b7a7;
+  color: white;
+  width: 20%;
+}
+
+.divider {
+  width: 100%;
+  height: auto;
+  background-image: url(../images/background_separator.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider .contain {
+  padding: 5em;
+}
+
+.divider .header-title,
+.divider .info-message,
+.divider .send-notify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider .header-title h2 {
+  width: 80%;
+  text-align: center;
+  font-size: 35px;
+  padding: 10px;
+}
+
+.divider .info-message p {
+  width: 55%;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  color: gray;
+}
+
+.divider .send-notify {
+  display: flex;
+  gap: 5px;
+}
+
+.divider .send-notify input {
+  border-radius: 20px;
+  border: 1px solid #f2b7a7;
+  padding: 8px;
+  width: 40%;
+}
+
+.divider .send-notify button {
+  width: 20%;
+  background-color: #f2b7a7;
+  color: white;
+}
+
+
+@media only screen and (max-width: 1023px) {
+  .browser-all button {
+    width: 80%;
+  }
+
+  .divider .contain {
+    padding: 1em;
+  }
+
+  .divider .header-title h2 {
+    width: 100%;
+    font-size: 27px;
+  }
+
+  .divider .info-message p {
+    width: 80%;
+  }
+
+  .divider .send-notify {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divider .send-notify input {
+    width: 80%;
+  }
+
+  .divider .send-notify button {
+    width: 50%;
+  }
+}
